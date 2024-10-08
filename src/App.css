@@ -1,3 +1,155 @@
+/* Hero.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+}
+
+.numbers hr{
+  display: block;
+  width: 30px;
+  text-align: center;
+  font-weight: 200;
+  border: 1px solid cyan;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.introduction{
+  width: 60%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+
+}
+
+.outer{
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.servicesSection{
+  height: 100vh;
+  background-image: url('images/servicesbg.jpg');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.servicesSection .collection{
+  height: 75vh;
+  width: 75%;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.services{
+  margin-top: 150px;
+}
+
+.card{
+  font-size: small;
+  font-size: small;
+  display: flex;
+  justify-content: space-around;
+  height: 40vh;
+}
+
+.cards{
+  margin: -130px auto;
+  position: relative;
+}
+
+/* --------------------------------------*/
+
+.maincontent{
+  display: flex;
+  height: 60vh;
+  align-items: center;
+  font-weight: 1000;
+  max-width: 80%;
+}
+
+
+
+.maincontent h1{
+  margin: auto;
+  font-size: 48px;
+  font-size: x-large;
+}
+
+.heroSection{
+  height: 85vh;
+  background-image: url('images/Hero.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.heroOverlay{
+  position:absolute;
+  inset: 0;
+}
+
+.herocontent{
+  width: 40%;
+  margin: 0px 20px;
+}
+
+
+
+/* ------------------------------------ */
+
+.navigation-bar{
+  padding: 12px 5px;
+  /* background-color: blueviolet; */
+  position:sticky;
+}
+
+.navigation-bar .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navigation-bar .container ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  color: black;
+}
+
+.navigation-bar .container ul li a{
+  color: black;
+  padding: 0px 6px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navigation-bar .social-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 2px;
+}
+
+.navigation-bar .social a{
+  padding: 0px 4px;
+  color: rgb(0, 0, 0);
+}
+
+
+
+
 .App {
   text-align: center;
 }
@@ -36,3 +188,7 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Navigation menu CSS */
+
